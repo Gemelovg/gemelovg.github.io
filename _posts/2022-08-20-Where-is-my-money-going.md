@@ -1,8 +1,8 @@
 ---
 title: Where is my money going.
 date: 2022-08-20
-catergories: [python, pandas, matplotlib, excel, plot]
-tags: [python, pandas, matplotlib, excel, plot]
+catergories: [python,pandas]
+tags: [python,pandas,matplotlib,excel,plot]
 ---
 
 
