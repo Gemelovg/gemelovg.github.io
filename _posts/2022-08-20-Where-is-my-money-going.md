@@ -1,14 +1,14 @@
 ---
 title: Where is my money going.
 date: 2022-08-20
-catergories: [python,pandas]
+catergories: [python]
 tags: [python,pandas,matplotlib,excel,plot]
 ---
 
 
 
 # Where is my money going.
-I think I have been sending a lot of my money on Amazon but I am not sure, let me take a look.
+I think I have been spending a lot of my money on Amazon but I am not sure, lets take a look.
 
 
 
@@ -29,7 +29,7 @@ colums=['Date', 'Description', 'Deposits','Price']
 bank.columns=colums
 bank.head()
 ```
-It looks somethig like this
+It looks something like this
 
 ```python
 Date	Description	Deposits	Price
@@ -40,7 +40,7 @@ Date	Description	Deposits	Price
 4	25 Jul 2022|7	PP*FASTSPRING	NaN	$ 223.77
 ```
 
-## Lets remove the Deposits columns so people doesnt know much I make and We are not going to use it.
+## Lets remove the Deposits column so people doesnt know much I make and We are not going to use it anyway.
 
 ```python
 bank = bank[['Date', 'Description','Price']]
@@ -77,7 +77,7 @@ suma = bank['Price'].sum()
 
 Oh no, the column is not numeric, lets fix that.
 
-Numbers looks like this:  $ 1,560.00
+Numbers on the column look like this:  $ 1,560.00
 
 Lets remove the dollar sign, and the commas.
 
@@ -105,7 +105,7 @@ bank['Price']
 14     269.99
 ```
 
-## We also have some empty spaces from the deposits column. Thets get rid of them.
+## We also have some empty spaces (not a number) from the deposits column. Thets get rid of them.
 
 ```python
 bank.dropna(inplace=True)
@@ -145,7 +145,7 @@ Date	Description	Price
 No NaN columns, nice.
 
 
-## Oh no an other problem. The Date column has a pipe and a number 7 at the end.
+## We have an other problem. The Date column has a pipe and a number 7 at the end.
 
 Lets remove them and convert it to datetime
 
@@ -198,7 +198,7 @@ Name: Description, dtype: int64
 Wow. Even though we know some expenses are form the same store, since they are have exactly the same name, the dataframe count them as different. Let use just the first word as the name of the Store.
 
 
-## Lets create a new column name Store and get the first word from the string.
+## Now lets create a new column name Store and get the first word from the string.
 
 ```python
 bank['Store'] = bank.Description.str.split().str.get(0)
@@ -228,7 +228,7 @@ REST                1
 Name: Store, dtype: int64
 ```
 
-A lot of amazon and paypal, lets see the total amounts
+A lot of Amazon and Paypal, lets see the total amounts
 
 
 ```python

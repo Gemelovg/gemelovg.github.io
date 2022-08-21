@@ -38,7 +38,7 @@ June 2012 — June 2016
 ### Data Analyst Professional by DataCamp
 
 
-<a href="https://www.datacamp.com/certificate/DA0025973220953">https://www.datacamp.com/certificate/DA0025973220953</a>
+[https://www.datacamp.com/certificate/DA0025973220953](https://www.datacamp.com/certificate/DA0025973220953)
 
 
 ## Courses
