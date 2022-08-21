@@ -17,7 +17,7 @@ Hard working and result driven Data Analyst with over 10 years of experience on 
 ### Analyst at HCL Mexico
 July 2016 — Present
 
-    • Creating Analysis and reports related to servers' utilization.
+    • Creating Analysis using SQL and Python  related to servers' utilization such as CPU, Memory and Network.
     • Working with stakeholders to understand requirements around new reports.
     • Maintaining global team to keep tasks organized and on track.
     • Produced documentation for for reports and solutions.
@@ -36,12 +36,21 @@ June 2012 — June 2016
 
 ## Certifications
 ### Data Analyst Professional by DataCamp
-https://www.datacamp.com/certificate/DA0025973220953
+
+
+<a href="https://www.datacamp.com/certificate/DA0025973220953">https://www.datacamp.com/certificate/DA0025973220953</a>
+
 
 ## Courses
 
 ### Analyze Data with SQL Skill Path
-https://www.codecademy.com/profiles/Gemelovg/certificates/5cafb2d937090210d7df3652
+<a href="https://www.codecademy.com/profiles/Gemelovg/certificates/5cafb2d937090210d7df3652">https://www.codecademy.com/profiles/Gemelovg/certificates/5cafb2d937090210d7df3652</a>
+
+
 
 ### Analyze Data with Python Skill Path
-https://www.codecademy.com/profiles/Gemelovg/certificates/5cacbe7b3709024753e7c3ff
+
+<a href="https://www.codecademy.com/profiles/Gemelovg/certificates/5cacbe7b3709024753e7c3ff">https://www.codecademy.com/profiles/Gemelovg/certificates/5cacbe7b3709024753e7c3ff</a>
+
+
+
