@@ -1,6 +1,6 @@
 ---
 title: Buying stocks or better not!
-date: 2022-08-20
+date: 2022-09-03
 catergories: [python]
 tags: [python,pandas,matplotlib,excel,plot]
 ---
