@@ -1,6 +1,6 @@
 ---
-title: Where is my money going.
-date: 2022-08-20
+title: Kaggle challenge dataset.
+date: 2023-03-20
 catergories: [python]
 tags: [python,pandas,matplotlib,excel,plot]
 ---
